@@ -1,12 +1,45 @@
-There was an error committing your changes: A file with the same name already exists. Please choose a different name and try again.
-Commit message
+# AI Resume Analyzer
 
-Copilot commit message generated: Add detailed README for AI Resume Analyzer project
-Extended description
+An AI-powered Resume Analyzer built with Python and Streamlit.
 
-Message and description suggested by Copilot.
-Direct commit or PR
+## Features
 
-Commit directly to the main branch
+- Upload resume in PDF format
+- Analyze resume content using AI
+- Generate feedback and suggestions
+- User-friendly Streamlit interface
 
-Create a new branch for this commit and start a pull request Learn more about pull requests
+## Tech Stack
+
+- Python
+- Streamlit
+- Sentence Transformers
+- Groq API
+- PDFMiner
+
+## Installation
+
+```bash
+git clone https://github.com/chandu-sai900/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+streamlit run main.py
+```
+
+## Project Structure
+
+```
+AI-Resume-Analyzer/
+│── main.py
+│── requirements.txt
+│── README.md
+│── LICENSE
+```
+
+## Author
+
+Nettam Chandu Sai
